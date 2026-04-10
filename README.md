@@ -68,55 +68,55 @@
 #### 🔹 主路由用户 - Url-test
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite.conf
+https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Overwrite/Overwrite.conf
 ```
 
 #### 🔹 主路由用户 - Smart-LGBM
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-LGBM.conf
+https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Overwrite/Overwrite-smart-LGBM.conf
 ```
 
 #### 🔹 主路由用户 - Smart（默认模型 + 数据收集）
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart.conf
+https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Overwrite/Overwrite-smart.conf
 ```
 
 #### 🔹 主路由无需 IPv6 用户 - Url-test
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-noipv6.conf
+https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Overwrite/Overwrite-noipv6.conf
 ```
 
 #### 🔹 主路由无需 IPv6 用户 - Smart-LGBM
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-noipv6-LGBM.conf
+https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Overwrite/Overwrite-smart-noipv6-LGBM.conf
 ```
 
 #### 🔹 主路由无需 IPv6 用户 - Smart（默认模型 + 数据收集）
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-noipv6.conf
+https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Overwrite/Overwrite-smart-noipv6.conf
 ```
 
 #### 🔹 旁路由用户 - Url-test
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-bypass.conf
+https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Overwrite/Overwrite-bypass.conf
 ```
 
 #### 🔹 旁路由用户 - Smart-LGBM
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-bypass-LGBM.conf
+https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Overwrite/Overwrite-smart-bypass-LGBM.conf
 ```
 
 #### 🔹 旁路由用户 - Smart（默认模型 + 数据收集）
 
 ```bash
-https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Overwrite/Overwrite-smart-bypass.conf
+https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Overwrite/Overwrite-smart-bypass.conf
 ```
 
 ---
