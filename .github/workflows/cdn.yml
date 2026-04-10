@@ -49,6 +49,8 @@ jobs:
           -e 's|https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main|https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main|g' \
           -e 's|https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta|https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta|g' \
           -e 's|https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main|https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main|g' \
+          -e 's|https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main|https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main|g' \
+          -e 's|https://raw.githubusercontent.com/Vbaethon/HOMOMIX/main|https://testingcf.jsdelivr.net/gh/Vbaethon/HOMOMIX@main|g' \
           {} +
 
       - name: 提交并推送更改 (Commit & Push)
