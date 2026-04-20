@@ -46,11 +46,7 @@ jobs:
         run: |
           # 查找文件并执行多重替换
           find . -type f -not -path "*/\.git/*" -not -path "*/\.github/*" -exec sed -i \
-          -e 's|https://raw.githubusercontent.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main|https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main|g' \
-          -e 's|https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta|https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta|g' \
-          -e 's|https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/refs/heads/main|https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main|g' \
-          -e 's|https://raw.githubusercontent.com/Aethersailor/Custom_OpenClash_Rules/main|https://testingcf.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main|g' \
-          -e 's|https://raw.githubusercontent.com//Giveupmoon/Clash_Rules_Yaml/main|https://testingcf.jsdelivr.net/gh/Giveupmoon/Clash_Rules_Yaml@main|g' \
+          -e 's|https://raw\.githubusercontent\.com/+([^/]+)/([^/]+)/([^/]+)/|https://testingcf.jsdelivr.net/gh/\1/\2@\3/|g' \
           {} +
 
       - name: 提交并推送更改 (Commit & Push)
