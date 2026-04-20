@@ -45,9 +45,8 @@ jobs:
       - name: 批量替换文件中的链接 (Replace URLs)
         run: |
           # 查找文件并执行多重替换
-          find . -type f -not -path "*/\.git/*" -not -path "*/\.github/*" -exec sed -i \
-          -e 's|https://raw\.githubusercontent\.com/+([^/]+)/([^/]+)/([^/]+)/|https://testingcf.jsdelivr.net/gh/\1/\2@\3/|g' \
-          {} +
+          find . -type f -not -path "*/\.git/*" -not -path "*/\.github/*" -exec sed -E -i \
+          's|https://raw\.githubusercontent\.com/+([^/]+)/([^/]+)/([^/]+)/|https://testingcf.jsdelivr.net/gh/\1/\2@\3/|g' {} +
 
       - name: 提交并推送更改 (Commit & Push)
         uses: stefanzweifel/git-auto-commit-action@v5
