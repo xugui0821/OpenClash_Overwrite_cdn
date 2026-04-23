@@ -45,6 +45,10 @@ jobs:
       - name: 批量替换文件中的链接 (Replace URLs)
         run: |
           # 查找文件并执行多重替换
+          find . -type f -not -path "*/\.git/*" -not -path "*/\.github/*" -exec sed -i \
+          's|https://raw\.githubusercontent\.com/Giveupmoon/OpenClash_Overwrite/refs/heads/main/Yaml|https://testingcf.jsdelivr.net/gh/xugui0821/OpenClash_Overwrite_cdn@main/Yaml|g' {} +
+
+          # 2. 执行通用的正则替换，处理剩下的常规 raw 链接
           find . -type f -not -path "*/\.git/*" -not -path "*/\.github/*" -exec sed -E -i \
           's|https://raw\.githubusercontent\.com/+([^/]+)/([^/]+)/([^/]+)/|https://testingcf.jsdelivr.net/gh/\1/\2@\3/|g' {} +
 
